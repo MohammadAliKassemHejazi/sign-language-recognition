@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load your trained model
-model_path = "sign.h5"  # Replace with the actual path to your trained model
+model_path = "../model/sign.h5"  
 model = load_model(model_path)
 
 # Compile the model with your desired settings
